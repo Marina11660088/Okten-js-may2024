@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson2</title>
+</head>
+<body>
+<script>
+    // Масиви та об'єкти
+    // #67kfznmiMl
+    // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+    // let array
+    // array = ['anna', 'inna', 607, 'oleg', 'andrey', true, 'igor', 'tanya', 'katya', 'ivan'];
+    // console.log(array[0]);
+    // console.log(array[1]);
+    // console.log(array[2]);
+    // console.log(array[3]);
+    // console.log(array[4]);
+    // console.log(array[5]);
+    // console.log(array[6]);
+    // console.log(array[7]);
+    // console.log(array[8]);
+    // console.log(array[9]);
+
+
+
+
+    // #LARqoUj5I
+    // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+    // let book1 = {
+    //     title: 'SQL',
+    //     pageCount: 530,
+    //     genre: 'навчання'};
+    // let book2 = {
+    //     title: 'Емоційний інтелект',
+    //     pageCount: 270,
+    //     genre: 'психологія'};
+    // let book3 = {
+    //     title: 'Медичний довідник',
+    //     pageCount: 480,
+    //     genre: 'медицина'};
+
+
+
+
+
+    //     #sA3Gg1sCp
+    // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори" - являється  масивом. Кожен автор має поля name та age.
+    // let book1 = {
+    //     title: 'SQL',
+    //     pageCount: 530,
+    //     genre: 'навчання',
+    //     authors: [
+    //         {name: 'Аллен Тейлор',
+    //         age: 45},
+    //         {name: 'Анна Тейлор',
+    //             age: 39}
+    //     ]};
+    // let book2 = {
+    //     title: 'Емоційний інтелект',
+    //     pageCount: 270,
+    //     genre: 'психологія',
+    //     authors: [
+    //         {name: 'Інга Русел',
+    //             age: 55}
+    //     ]};
+    // let book3 = {
+    //     title: 'Медичний довідник',
+    //     pageCount: 480,
+    //     genre: 'медицина',
+    //     authors: [
+    //         {name: 'Артем Іванов',
+    //            age: 46}
+    //    ]};
+
+
+
+
+    //     #jCHFnEbdmFd
+    // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password. Вивести в консоль пароль кожного користувача
+
+    // let array = [
+    //     {name: 'Maryna', username: 'mar12', password: '12345n'},
+    //     {name: 'Ira', username: 'i9912', password: 'm89898'},
+    //     {name: 'Oleg', username: '1oleg233', password: 'lll12'},
+    //     {name: 'Vasya', username: 'myas90', password: 122345},
+    //     {name: 'Ivan', username: 'kkson6', password: 3333333},
+    //     {name: 'Vova', username: 'vova11', password: 'm112233'},
+    //     {name: 'Alex', username: 'alp55', password: 12000},
+    //     {name: 'Ben', username: 'benben', password: 'ben123'},
+    //     {name: 'Yana', username: 'Ya555', password: 556677},
+    //     {name: 'Sergiy', username: 'Serg8', password: 's3456'}
+    // ];
+    // console.log(array[0].password);
+    // console.log(array[1].password);
+    // console.log(array[2].password);
+    // console.log(array[3].password);
+    // console.log(array[4].password);
+    // console.log(array[5].password);
+    // console.log(array[6].password);
+    // console.log(array[7].password);
+    // console.log(array[8].password);
+    // console.log(array[9].password);
+
+
+
+
+    // #coYydZuaeEB
+    // - описати масив, в якому буде зберігатись інформація про температуру вранці, вдень і ввечері за термін в 7 днів. Як зробити цей масив - вам потрібно подумати. Нормальних варіантів опису - 2. Варіант, коли в вас буде одновимірний масив з 21 значенням вичключаємо одразу
+
+    // let temperature = [
+    //     {day: 'first', morningTemp: 17, dayTemp: 25, eveningTemp: 20},
+    //     {day: 'second', morningTemp: 16, dayTemp: 27, eveningTemp: 19},
+    //     {day: 'third', morningTemp: 18, dayTemp: 28, eveningTemp: 20},
+    //     {day: 'fourth', morningTemp: 18, dayTemp: 29, eveningTemp: 22},
+    //     {day: 'fifth', morningTemp: 19, dayTemp: 28, eveningTemp: 21},
+    //     {day: 'sixth', morningTemp: 17, dayTemp: 27, eveningTemp: 20},
+    //     {day: 'seventh', morningTemp: 18, dayTemp: 27, eveningTemp: 19},
+    //
+    // ];
+    // console.log(temperature)
+
+
+
+
+    // Логічні розгалуження:
+    //
+    //     #bAUsaq6LI
+    //     - Є змінна х, якій ви надаєте довільне числове значення.
+    //     Якщо змінна x не дорівнює нулю, виведіть 'Вірно', інакше виведіть 'Невірно'. Перевірте  скрипт при a, що дорівнює 1, 0, -3
+
+    // let x=-3;
+    // if (x!==0){
+    //     console.log('Вірно')
+    // } else {
+    //     console.log('Невірно')
+    // };
+
+
+
+    // #3ckURgvs
+    // - Дано змінну time яка рівна числу від 0 до 59. Потрібно написати код, який перевірить, до якої четверті години попадає число
+    // (в першу, другу, третю или четверту частину години).
+
+    // let time= +prompt ("Введіть хвилину");
+    // if (time>=0 && time<=14){
+    //     console.log("Перша чверть")
+    // } else if (time>=15 && time<=29){
+    //     console.log("Друга чверть")
+    // } else if (time>=30 && time<=44){
+    //     console.log("Третя чверть")
+    // }else if (time>=45 && time<=59){
+    //     console.log("Четверта чверть")
+    // }else {
+    //     console.log ("Введіть інше чісло")
+    //}
+
+
+
+    // #UMoNq4biWGe
+    // - У змінній day дано якесь число від 1 до 31. Потрібно визначити, у яку половину(декаду) місяця потрапляє це число (у першу, другу чи третю).
+
+    // let day= +prompt ("Введіть число від 1 до 31");
+    // if (day>=0 && day<=10){
+    //     console.log("Перша декада")
+    // } else if (day>=11 && day<=20){
+    //     console.log("Друга декада")
+    // } else if (day>=21 && day<=31){
+    //     console.log("Третя декада")
+    // }else {
+    //     console.log ("Введіть інше чісло")
+    // }
+
+
+
+    // #KzrtqyQ
+    // - Скласти розклад на тиждень за домопоги switch. Користувач вводить порядковий номер дня тижня і на екрані відображається інфа що заплановано на цей день (можна замість плану на день, назву дня англійською).
+
+    // let num= +prompt ("Введіть номер дня тижня");
+    // switch (num) {
+    //     case 1:
+    //         console.log ("Monday");
+    //         break;
+    //     case 2:
+    //         console.log ("Tuesday");
+    //         break;
+    //     case 3:
+    //         console.log ("Wednesday");
+    //         break;
+    //     case 4:
+    //         console.log ("Thursday");
+    //         break;
+    //     case 5:
+    //         console.log ("Friday");
+    //         break;
+    //     case 6:
+    //         console.log ("Saturday");
+    //         break;
+    //     case 7:
+    //         console.log ("Sunday");
+    //         break;
+    //     default:
+    //         console.log ("не вірно");
+    // }
+
+
+
+    //
+    //     #uwsz1RnTQJ1
+    //     - Користувач вводить або має два числа.
+    //         Потрібно знайти та вивести максимальне число з тих двох .
+    //         Також потрібно врахувати коли введені рівні числа.
+
+    // let a= +prompt ("Введіть перше число");
+    // let b= +prompt ("Введіть друге число");
+    // if (a>b){
+    //     console.log(a)
+    // } else if (a===b){
+    //     console.log("рівні числа")
+    // }else if (a<b) {
+    //     console.log (b)
+    // }
+
+
+
+    //         #iBvqtjEm
+    //     - є змінна х, яка може прийняти будь-яке значення (стрінг, число, undefined, null  і тд включно). Напишіть код який,
+    //         буде присвоювати змінній х значення "default"  якщо ви намагаєтесь присвоїти в неї falsy-значення (хибноподібні, тобто ті, які приводиться до false, а це 0 null undefined і тд).
+
+    // let x= prompt ("Введіть будь-яке значення");
+    // if (x==='null' || x==="" || x==='0' || x==='undefined' || x==='NaN' || x==='-0' || x==='false') {
+    //     console.log("default");
+    // } else {
+    //     console.log(x)
+    //}
+
+
+
+    //
+    //     #awLXL6TBzg
+    //     - з файлу arrays.js (лежить в папці 2023 plan ) взяти масив coursesAndDurationArray. За допомоги іф перевірити кожен його елемент на тривалість навчання. У випадку якщо тривалість довша за 5 місяців вивести в консоль "Супер".
+
+    // let coursesAndDurationArray = [
+    //     {title: 'JavaScript Complex', monthDuration: 5},
+    //     {title: 'Java Complex', monthDuration: 6},
+    //     {title: 'Python Complex', monthDuration: 6},
+    //     {title: 'QA Complex', monthDuration: 4},
+    //     {title: 'FullStack', monthDuration: 7},
+    //     {title: 'Frontend', monthDuration: 4}
+    // ];
+    //
+    // if (coursesAndDurationArray[0].monthDuration>5){
+    //     console.log("Супер")
+    // }
+    // if (coursesAndDurationArray[1].monthDuration>5){
+    //     console.log("Супер")
+    // }
+    // if (coursesAndDurationArray[2].monthDuration>5){
+    //     console.log("Супер")
+    // }
+    // if (coursesAndDurationArray[3].monthDuration>5){
+    //     console.log("Супер")
+    // }
+    // if (coursesAndDurationArray[4].monthDuration>5){
+    //     console.log("Супер")
+    // }
+    // if (coursesAndDurationArray[5].monthDuration>5){
+    //     console.log("Супер")
+    // }
+
+
+</script>
+</body>
+</html>
