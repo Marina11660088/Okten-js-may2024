@@ -9,7 +9,7 @@
 //     this.email = email;
 //     this.phone = phone;
 // }
-//
+
 // let arr = [
 //     new User(1, 'Alex', 'Volkov', 'oliv@gmail.com', 380675674433),
 //     new User(5, 'Igor', 'Petrov', '123@gmail.com', 380680094433),
@@ -216,7 +216,7 @@
 //
 //  let find =cinderellas.find((item)=>item.footSize===prince1.shoeSize);
 // console.log(find)
-
+//
 
 // #gsKLAsNWM
 // *Через Array.prototype. створити власний foreach, filter
